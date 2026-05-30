@@ -50,14 +50,7 @@ Project structure (high level)
 
 User of AI
 ---------
-Gemini 3.1 Pro was used for code formatting, structural optimization on pre-written code chunks.
-This prompt is used for every message on the AI
-
-`bash`
-``````
-(Chunks of code)
-Please Optimize the structure of the code but don't change the style, and the flow
-``````
+1. Used Gemini 3.1 Pro in order to ensure that MariaDB runs before the backend, so that we don't get an error and modified the docker-compose.yml file. 
 
 TODO
 ----

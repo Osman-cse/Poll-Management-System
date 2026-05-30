@@ -48,11 +48,21 @@ Project structure (high level)
   - `components/` — reusable components and styles
   - `pages/` — page-level components (signup, Login, Dashboard, PollResults, PendingPolls, ParticipatePoll, Navbar, CreatePoll, CreatedPoll)
 
+User of AI
+---------
+Gemini 3.1 Pro was used for code formatting, structural optimization on pre-written code chunks.
+This prompt is used for every message on the AI
+
+`bash`
+``````
+(Chunks of code)
+Please Optimize the structure of the code but don't change the style, and the flow
+``````
+
 TODO
 ----
-- I will add 3 extra features (from the given list)
 - Connect real backend API and remove fake data
-
+- Add tests
 
 Flow
 ----

@@ -16,11 +16,10 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleAllExceptions(Exception ex) {
-        logger.error("Error is: ", ex);
+        logger.error("The Error is: ", ex);
         Map<String, Object> body = new HashMap<>();
         body.clear();
-        body.put("Error message is", ex.getMessage());
-        body.put("Error is", HttpStatus.INTERNAL_SERVER_ERROR.value());
+        body.put("THe Error is", HttpStatus.INTERNAL_SERVER_ERROR.value());
 
         return new ResponseEntity<>(body, HttpStatus.INTERNAL_SERVER_ERROR);
     }

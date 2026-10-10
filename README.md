@@ -18,17 +18,32 @@ Welcome to the Polling Management System, a complete full stack application that
 ### Application Workflow
 1. **Authentication:** Users can sign up or log in. Passwords are securely encrypted on the backend, and user sessions are managed accordingly through spring security.
 
+![img_2.png](img_2.png)
+
 2. **Main Dashboard:** Upon successful login, users land on the dashboard where they can see the overview, a button to create a new poll, and card to see the pending poll and created poll.
+
+![img_1.png](img_1.png)
 
 3. **Poll Creation:** Users can fill out the form containing a Title, Description, Due Date, and multiple polling questions. The answer can be in text, numeric, and boolean format, based on the user who is creating it, and also he can make it anonymous so he see result without knowing who responded.
 
+![img_3.png](img_3.png) ![img_4.png](img_4.png)
+
 4. **Poll Management:** Under the "Created Polls" section, the creator can view their active polls, invite other registered users, update poll criteria, or manually delete and finish a poll before its due date and can view the result.
+
+![img_5.png](img_5.png)
 
 5. **Participation:** Users can view invitations from other users. Clicking a poll shows the list of questions, allowing the user to select an option or solve the question and he can not leave any question empty.
 
+![img_6.png](img_6.png) ![img_7.png](img_7.png) ![img_8.png](img_8.png)
+
 6. **Analytics & Results:** The results view is split into two insightful tabs:
 * **Aggregate Summary:** Overall Result for all the participated user, which shows in averages.
+
+![img_9.png](img_9.png)
+
 * **Individual Responses:** It shows the individual response of all participated users.
+
+![img_10.png](img_10.png) ![img_11.png](img_11.png)
 
 ---
 
